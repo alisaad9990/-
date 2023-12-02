@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{background-color: black;}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+    height: 80px;
+}
+.logo-1 img{
+    border-radius: 50%;
+}
+nav{
+    padding-top: 20px;
+}
+nav a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 35px;
+    margin-right: 30px;
+}
+nav a:hover{
+    background-color: rgba(36, 36, 140, 0.587);
+}
+.sec-introd{
+    background-image: url("image/fee6bd751bd3a955ebdb5219e95a8c8c.jpg");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec-introd div h1{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 55px;
+    padding: 60px;
+}
+.product h1{
+    color: rgb(245, 244, 244);
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.product-a{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.product-a div h1{
+    color: aqua;
+    font-size: 14px;
+    padding: 15px;
+    text-align: center;
+}
+.product-a div{
+    background-color: rgb(73, 21, 121);
+}
+.product-a div a{
+    text-decoration: none;
+    color: white;
+}
+.product-b{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.product-b div h1{
+    color: aqua;
+    font-size: 14px;
+    padding: 15px;
+    text-align: center;
+}
+.product-b div{
+    background-color: rgb(73, 21, 121);
+}
+.product-b div a{
+    text-decoration: none;
+    color: white;
+}
+.product-c{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.product-c div h1{
+    color: aqua;
+    font-size: 14px;
+    padding: 15px;
+    text-align: center;
+}
+.product-c div{
+    background-color: rgb(73, 21, 121);
+}
+.product-c div a{
+    text-decoration: none;
+    color: white;
+}
+.product-d{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.product-d div h1{
+    color: aqua;
+    font-size: 14px;
+    padding: 15px;
+    text-align: center;
+}
+.product-d div{
+    background-color: rgb(73, 21, 121);
+}
+.product-d div a{
+    text-decoration: none;
+    color: white;
+}
+.all-products div img{
+    border-radius: 3%;
+}
+.all-products div h1:hover{
+    background-color: black;
+}
+.all-products div a:hover{
+    background-color: aqua;
+}
+.footer-1{
+    display: flex;
+    justify-content: space-around;
+    background-color: slategray;
+    font-size: 9px;
+    color: ghostwhite;
+}
+.footer-1 div a{
+    text-decoration: none;
+    color: bisque;
+}
+.footer-1 div h1{
+    text-align: center;
+}
+.sec-product1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/thumbimg_25361957thumbejpg.jpg");
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-product1 img{
+    border-radius: 10%;
+}
+.div-details{
+    color: aquamarine; 
+}
+.div-details h1{
+    font-size: 35px;
+}
+.div-details p{
+    font-size: 20px;
+}
+.sec-login{
+    background-image: url("image/image/6516079a-ba8b-4e41-8bd4-62cc991fba00.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    font-size: 15px;
+}
+.sec-login input{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20%;
+}
+.hover1:hover{
+    background-color: aqua;
+    border: none;
+    color: red;
+    outline: none;
+}
+.hover1{
+    background-color: blue;
+    color: white;
+    width: 200px;
+}
+.sec-login22{
+    background-image: url("image/image/silhouette-man-camel-crossing-desert_9083-13565.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    font-size: 15px;
+}
+.sec-login22 input{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15%;
+}
+.input-signin:hover{
+    background-color: aqua;
+    border: none;
+    color: red;
+    outline: none;
+}
+.input-signin{
+    background-color: blue;
+    color: white;
+    width: 200px;
+}
+.sec-confirm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/thumbimg_25361957thumbejpg.jpg");
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-confirm img{
+    border-radius: 10%;  
+
+}
+.div-done h1{
+    font-size: 35px;
+    color: cornsilk;
+}
+.div-done p{
+    font-size: 20px;
+    color: bisque;
+}
+.div-done a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+}
+.div-done a:hover{
+    background-color: aqua;
+    color: red;
+}
+.sec-thank-you{
+    display: flex;
+    justify-content: center;
+    background-image: url("image/msg631655257-4798.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    align-items: center;
+    font-size: 25px;
+}
+.sec-thank-you a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border-radius: 9px;
+}
+.sec-thank-you a:hover{
+    background-color: deeppink;
+    color: black;
+}
+.sec-helps{
+    background-color: aqua;
+    background-size: cover;
+    height: 1200px;
+    font-size: 25px;
+}
+.div-summary{
+    text-align: center;
+}
+.sec-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.sec-contact input{
+    padding: 25px;
+    margin: 10px;
+    border-radius: 15%;
+    width: 200px;
+}
